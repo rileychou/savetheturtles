@@ -67,3 +67,15 @@ section{
     background-color: cornsilk;
     text-align: center;
 }
+
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-gap: 30px;
+}
+
+.grid-item {
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    text-align: center;
+    height: auto;
+}
