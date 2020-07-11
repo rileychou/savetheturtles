@@ -68,6 +68,30 @@ section{
     text-align: center;
 }
 
+.collapsible {
+    background-color: #eee;
+    color: #444;
+    cursor: pointer;
+    margin-top: 6px;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+    border-radius: 5px;
+}
+
+.active, .collapsible:hover {
+    background-color: #ccc;
+}
+
+.content {
+    padding: 0 18px;
+    display: none;
+    overflow: hidden;
+}
+
 .grid-container {
     display: grid;
     grid-template-columns: auto auto;
@@ -75,7 +99,9 @@ section{
 }
 
 .grid-item {
-    border: 1px solid rgba(0, 0, 0, 0.8);
+    border: 4px solid cadetblue;
+    border-radius: 10px;
     text-align: center;
+    background-color: lavender;
     height: auto;
 }
