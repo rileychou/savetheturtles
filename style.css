@@ -99,6 +99,7 @@ section{
 #about {
     background-color: cornsilk;
     text-align: center;
+    font-family: montserrat;
 }
 
 #mission {
@@ -131,12 +132,31 @@ section{
 }
 
 #problem {
-    background-color: cornsilk;
+    background-image: linear-gradient(to bottom right, cadetblue, lightyellow);
     text-align: center;
     font-family: 'Oxygen', sans-serif;
 }
 #problem p{
     padding: 0 100px;
+}
+
+#mascot {
+    background-color: linen;
+    overflow: auto;
+}
+
+#mascot h2 {
+    text-align: center;
+    font-family: montserrat;
+}
+
+#mascot div {
+    margin: auto;
+    max-width: 800px;
+}
+
+#mascot img{
+    float: right;
 }
 
 .collapsible {
