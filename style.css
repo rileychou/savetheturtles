@@ -140,6 +140,13 @@ section{
     padding: 0 100px;
 }
 
+hr {
+    width: 20%;
+    margin: 0 auto;
+    border: 1px solid gray;
+
+}
+
 #mascot {
     background-color: linen;
     overflow: auto;
@@ -150,6 +157,9 @@ section{
     font-family: montserrat;
 }
 
+#mascot p{
+    font-family: 'Oxygen', sans-serif;
+}
 #mascot div {
     margin: auto;
     max-width: 800px;
@@ -157,6 +167,32 @@ section{
 
 #mascot img{
     float: right;
+}
+
+#team {
+    text-align: center;
+}
+#team h2{
+    font-family: montserrat;
+}
+.teammember {
+    float: left;
+    width: 33.33%;
+    padding: 50px;
+    box-sizing: border-box;
+    text-align: center;
+    font-family: montserrat;
+}
+
+.teammember img {
+    width: 90%;
+    border-radius: 50%;
+}
+  
+  .clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
 }
 
 .collapsible {
