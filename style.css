@@ -25,7 +25,8 @@ footer{
 
 .nav-area{
 	float: right;
-	list-style: none;
+    list-style: none;
+    padding-right: 5vw;
 }
 
 .nav-area ul{
@@ -42,13 +43,12 @@ footer{
 	color: #545454;
 	text-decoration: none;
     font-family: Montserrat;
-	font-size: 14px;
+	font-size: 16px;
 	transition: all ease-in-out 250ms;
 }
 
 .nav-area li a:hover{
 	color: #a9a9a9;
-	border-radius: 3px;
 }
 
 .logo{
@@ -193,20 +193,28 @@ hr {
     border-radius: 50%;
 }
   
-  .clearfix::after {
+.clearfix::after {
     content: "";
     clear: both;
     display: table;
 }
 
+.saveocean {
+    float: left;
+    width: 50%;
+    padding: 25px;
+    box-sizing: border-box;
+    text-align: center;
+}
+
 .collapsible {
-    background-color: #eee;
+    background: rgba(255, 255, 255, 0.5);
     color: #444;
     cursor: pointer;
     margin-top: 6px;
     padding: 18px;
     width: 100%;
-    border: none;
+    border: 1px solid white;
     text-align: left;
     outline: none;
     font-size: 15px;
@@ -214,13 +222,17 @@ hr {
 }
 
 .active, .collapsible:hover {
-    background-color: #ccc;
+    background-color: rgba(95, 158, 160, 0.4);
 }
 
 .content {
     padding: 0 18px;
     display: none;
     overflow: hidden;
+}
+
+#waystohelp {
+    background-image: linear-gradient(to bottom right, rgb(255, 167, 248), rgb(217, 159, 255), rgb(184, 244, 255))
 }
 
 .grid-container {
