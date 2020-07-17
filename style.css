@@ -298,3 +298,40 @@ hr {
     border-color: cornflowerblue;
     
 }
+
+.iconify {
+    color: black;
+    font-size: 36px;
+    margin: 4px;
+    transition: all ease-in-out 250ms;
+}
+
+.iconify:hover{
+    color: rgb(0, 129, 129);
+}
+
+.discord{
+    padding: 0 auto;
+}
+
+.discord p{
+    float: left;
+}
+
+.discord-tag{
+    margin: 0;
+    padding-top: 28px;
+    font-weight: bolder;
+}
+
+#discord-logo{
+    color: #7289DA;
+}
+
+#logo-creds{
+    text-align: center;
+}
+
+#logo-creds{
+    background-image: linear-gradient(to bottom right, rgb(190, 255, 190), rgb(162, 162, 255));
+}
