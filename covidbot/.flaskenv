@@ -1,0 +1,2 @@
+FLASK_APP=gbot.py
+FLASK_ENV=development
