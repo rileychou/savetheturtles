@@ -1,4 +1,4 @@
-* {
+html {
     font-family: Helvetica Neue;
 }
 
@@ -266,9 +266,21 @@ hr {
 }
 
 #waystohelp {
+    
     background-image: linear-gradient(to bottom right, rgb(255, 167, 248), rgb(217, 159, 255), rgb(184, 244, 255))
 }
 
+#organizations{
+    background: url(images/wave2.jpg) no-repeat;
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+}
+
+#orgtitle {
+    color: white;
+    text-shadow: 2px 2px 4px #000000;
+}
 .grid-container {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -279,9 +291,19 @@ hr {
     border: 4px solid cadetblue;
     border-radius: 10px;
     text-align: center;
-    background-color: lavender;
+    background-color: rgba(230, 230, 250, 0.8);
     height: auto;
+    padding-left: 5%;
+    padding-right: 5%;
     padding-bottom: 24px;
+}
+
+.grid-item h1{
+    font-family: 'Oxygen', sans-serif;
+}
+
+.grid-item p{
+    font-family: 'Roboto Slab', serif;
 }
 
 .button {
@@ -291,6 +313,7 @@ hr {
     border-radius: 5px;
     border: transparent solid 2px;
     transition: all ease-in-out 250ms;
+    display: inline-block;
 }
 
 .button:hover{
